@@ -15,6 +15,7 @@ public class CarrinhoDeCompras {
 		this.itemList.add(item);
 	}
 
+	@SuppressWarnings("unlikely-arg-type")
 	public void removerItem(String nome) {
 		List<Item> itensParaRemover = new ArrayList<>();
 		if (!itemList.isEmpty()) {
